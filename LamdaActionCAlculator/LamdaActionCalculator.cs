@@ -11,7 +11,7 @@ namespace LamdaActionCAlculator
                 Console.WriteLine(firstNumber + secondNumber);
            
 
-            Action<int, int> SsubtractNum =  (firstNumber, secondNumber)=>
+            Action<int, int> subtractNum =  (firstNumber, secondNumber)=>
             
                 Console.WriteLine(firstNumber - secondNumber);
             
